@@ -1,64 +1,61 @@
 
-# Project SAVI: Open-Hardware Neuro-Safety Architecture & Eco-Epigenetic Haptic Framework
+# Project SAVI: Ultra-Low-Cost Tactile Neuromodulation & Neuro-Safety Architecture
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--7103--446X-green)](https://orcid.org/0009-0003-7103-446X)
 [![Part 1 DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.33716230-blue)](https://doi.org/10.6084/m9.figshare.33716230)
 [![Part 2 DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.33732142-blue)](https://doi.org/10.6084/m9.figshare.33732142)
 [![Part 3 DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.33789736-blue)](https://doi.org/10.6084/m9.figshare.33789736)
-[![Hardware License](https://img.shields.io/badge/License-CERN--OHL--P_v2-green)](https://ohwr.org/cern_ohl_p_v2.txt)
-[![Software License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Docs License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![OSHWA Certification Pending](https://img.shields.io/badge/OSHWA-Certification%20Pending-blue)](https://certificate.oshwa.org/)
+[![License: CERN-OHL-P v2](https://img.shields.io/badge/Hardware-CERN--OHL--P%20v2-orange.svg)](LICENSE-HARDWARE.txt)
+[![License: MIT](https://img.shields.io/badge/Firmware-MIT-yellow.svg)](LICENSE-FIRMWARE.txt)
+[![License: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-lightgrey.svg)](LICENSE-DOCS.txt)
 
-**Project SAVI (System for Adaptive Vibration Inhibition)** is a complete 3-part open-hardware and neuro-engineering research trilogy designed to establish **Cognitive Sovereignty** and **Eco-Epigenetic Haptic Conditioning** without electronic or corporate dependencies.
-
----
-
-## Research Trilogy & DOI Registry
-
-1. **SAVI 1.0 (Part 1 - Theoretical Framework):**
-   * *Tactical Framework for Non-Verbal Haptic Interfaces*
-   * **DOI:** `10.6084/m9.figshare.33716230`
-
-2. **SAVI 2.0 (Part 2 - Active Hardware Implementation):**
-   * *Adaptive Hardware & Predictive Haptic-ANC Architecture*
-   * **DOI:** `10.6084/m9.figshare.33732142`
-
-3. **SAVI 2.0 (Part 3 - Passive Architecture & Protocol):**
-   * *A Passive, Non-Electric Eco-Epigenetic Haptic Architecture for Cognitive Enhancement*
-   * **DOI:** `10.6084/m9.figshare.33789736`
+Project SAVI is an open-source, peer-verifiable neuro-safety wearable system designed to democratize access to tactile neuromodulation and active vibration control. Built on a strict **$15 Target Bill of Materials (BOM)**, it targets the human somatosensory system—the primary, evolutionary surface for biological communication.
 
 ---
 
-## Key Technical Features
+## 🔬 Core Engineering Specifications
 
-* **Predictive Haptic-ANC (Active System):** ESP32, DRV2605L, and MPU6050 integration generating phase-inverted haptic signals to neutralize ambient noise affecting Pacinian Corpuscles (150 Hz – 300 Hz).
-* **Passive Energy Harvesting (Non-Electric System):** Micro-turbine escapement mechanism transducing ambient wind/fluid kinetics (0.5 m/s – 5.0 m/s) into 10 Hz – 30 Hz somatosensory pulses.
-* **4-Phase Neuro-Conditioning Protocol:** Systematically transitions subjects from active hardware entrainment to pure unmediated eco-embodiment (0% hardware dependency).
-* **Multi-User Eco-Resonance Systems:** Group-level thalamocortical phase-locking via shared environmental kinetic vectors.
-* **Zero-Telemetry Safety:** Physical SPST power kill-switch ensuring absolute privacy.
-
----
-
-## Hardware Specifications & Cost Target
-
-* **MCU:** ESP32 Dual-Core @ 240MHz
-* **Haptic Driver:** Texas Instruments DRV2605L (I2C)
-* **IMU Sensor:** MPU6050 / MPU6500 (6-Axis Accel/Gyro)
-* **Actuator:** Linear Resonant Actuator (LRA) @ 200 Hz
-* **Target BOM Cost:** ~$15 USD (Frugal Innovation Target)
+* **Target BOM:** ≤ $15 USD (Designed for global accessibility in resource-constrained research environments)
+* **Microcontroller:** ESP32 (Tensilica LX6, Dual-core, Wi-Fi/BLE integrated)
+* **Kinematic Sensing:** MPU6050 (6-axis I2C MotionTracking accelerometer & gyroscope)
+* **Haptic Actuation:** DRV2605L (ERM/LRA Haptic Driver with integrated waveform library)
+* **Neuromodulation Frequency:** Active noise/vibration cancellation & sensory targeting across **150–300 Hz**
 
 ---
 
-## Author & Acknowledgments
+## 📜 Open-Source Licensing & Compliance
 
-* **Author & Lead Systems Architect:** Sutharsan Sakathevan (Global Academic & Haptic Mechanics Initiative)
-* **Academic ORCID Profile:** `0009-0003-7103-446X`
-* **Collaborative AI Engineering:** Developed in technical collaboration with Gemini AI (Firmware algorithms, frequency translation logic, and documentation scaffolding).
+Project SAVI fully adheres to strict Open-Source Hardware (OSHW) guidelines:
+
+1. **Hardware (Schematics, PCB, Gerber):** [CERN-OHL-P v2](LICENSE-HARDWARE.txt) (Permissive)
+2. **Firmware (C++ / ESP-IDF Driver):** [MIT License](LICENSE-FIRMWARE.txt)
+3. **Documentation & Research Data:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-DOCS.txt)
+
+> **Certification Status:** Official application for **OSHWA (Open Source Hardware Association) Certification** has been submitted and is currently pending UID assignment.
 
 ---
 
-## Licensing
+## 🛠 Repository Architecture
 
-* **Hardware Design:** [CERN-OHL-P v2](https://ohwr.org/cern_ohl_p_v2.txt)
-* **Firmware Code:** [MIT License](LICENSE)
-* **Documentation & Research Papers:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+```text
+├── hardware/             # KiCad PCB schematics, Gerber files, and Interactive BOM
+├── firmware/             # ESP32 C++ drivers, Sensor Fusion & Haptic DSP algorithms
+├── docs/                 # Safety guidelines, Bio-Acoustic theory, and Assembly Guides
+├── LICENSE-HARDWARE.txt  # CERN-OHL-P v2
+├── LICENSE-FIRMWARE.txt  # MIT License
+└── LICENSE-DOCS.txt      # CC BY 4.0
+ ```
+##🌍 Philosophical Basis & Biological Alignment
+​Modern speech and symbolic language are relatively recent evolutionary adaptations. Human physiology inherently utilizes the skin—the body's largest sensory interface—for direct environmental and neural synchronization. Project SAVI leverages this evolutionary somatosensory pathway to deliver tactile neuromodulation directly to the nervous system, bypassing auditory or visual cognitive overload.
+​##🤝 Funding & Global Collaboration
+​Project SAVI is an independent, human-led open science initiative developed by Sutharsan Sakathevan in Sri Lanka.
+​We are actively applying for open-science grants to fund physical prototype fabrication and laboratory validation:
+​NLnet Foundation (Open Internet Stack / Commons Fund)
+​Open Collective & GitHub Grants
+​How to Contribute
+​Star & Fork: Help us gain visibility within the Open Science Hardware (GOSH) network.
+​Firmware Optimization: Review our C++ sensor fusion loops in /firmware.
+​Peer Review: Inspect our PCB routing and BOM breakdown in /hardware.
+​Author: Sutharsan Sakathevan | Open Hardware Developer & Independent Researcher
+Contact / Profile: https://github.com/sutharsan-gahm
