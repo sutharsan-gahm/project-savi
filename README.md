@@ -46,7 +46,7 @@ Project SAVI fully adheres to strict Open-Source Hardware (OSHW) guidelines:
 ├── LICENSE-FIRMWARE.txt  # MIT License
 └── LICENSE-DOCS.txt      # CC BY 4.0
  ```
-##🌍 Philosophical Basis & Biological Alignment
+## 🌍 Philosophical Basis & Biological Alignment
 ​Modern speech and symbolic language are relatively recent evolutionary adaptations. Human physiology inherently utilizes the skin—the body's largest sensory interface—for direct environmental and neural synchronization. Project SAVI leverages this evolutionary somatosensory pathway to deliver tactile neuromodulation directly to the nervous system, bypassing auditory or visual cognitive overload.
 ​##🤝 Funding & Global Collaboration
 ​Project SAVI is an independent, human-led open science initiative developed by Sutharsan Sakathevan in Sri Lanka.
