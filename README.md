@@ -59,3 +59,9 @@ Project SAVI fully adheres to strict Open-Source Hardware (OSHW) guidelines:
 ​Peer Review: Inspect our PCB routing and BOM breakdown in /hardware.
 ​Author: Sutharsan Sakathevan | Open Hardware Developer & Independent Researcher
 Contact / Profile: https://github.com/sutharsan-gahm
+### SAVI 4.0: Closed-Loop Somatosensory Bio-Feedback Architecture for Dementia Care
+* **Scope:** $15 Target BOM active wearable delivering acoustic-to-tactile neuro-haptic grounding to reduce non-verbal cognitive overload and agitation.
+* **Core Tech:** Dual-Core ESP32 Edge-DSP, Real-time FFT (85–255 Hz to 150–300 Hz Pacinian band), MPU6050 agitation detection, DRV2605L + 10mm LRA somatosensory anchoring.
+* **DOI:** [10.6084/m9.figshare.33940801](https://doi.org/10.6084/m9.figshare.33940801)
+* **License:** CERN-OHL-P v2 (Hardware) | MIT (Firmware) | CC BY 4.0 (Documentation)
+* **Author ORCID:** [0009-0003-7103-446X](https://orcid.org/0009-0003-7103-446X)
