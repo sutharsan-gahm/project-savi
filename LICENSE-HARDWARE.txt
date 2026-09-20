@@ -1,0 +1,42 @@
+CERN Open Hardware Licence Version 2 - Permissive
+
+Preamble
+CERN has developed this Licence to promote collaborating on the development
+and sharing of hardware designs. It aspires to be a universal licence,
+meaning that it should be usable for any type of hardware, and that anyone
+should be able to use it, not just CERN.
+
+This Licence governs the use, copying, modification, and distribution of
+hardware designs and products manufactured according to those designs.
+
+1. Definitions
+1.1 'Licence' means this CERN Open Hardware Licence Version 2 - Permissive.
+1.2 'Source' means information such as design materials, schematics, PCB
+layouts, mechanical models, instructions and firmware source code, which can
+be modified and used to manufacture Products.
+1.3 'Product' means any physical object manufactured using the Source.
+1.4 'Contributor' means any person or entity that creates or modifies the
+Source.
+1.5 'You' means an individual or legal entity exercising rights under this
+Licence.
+
+2. Grant of Rights
+2.1 You may copy and distribute verbatim copies of the Source.
+2.2 You may modify the Source and distribute your modifications.
+2.3 You may manufacture Products based on the Source, modified or not, and
+distribute them under terms of your choice.
+
+3. Conditions
+3.1 Whenever You distribute the Source, You must provide a copy of this
+Licence and keep intact all notices referring to this Licence and to the
+absence of any warranty.
+3.2 Whenever You distribute modified Source, You must clearly indicate which
+parts have been modified.
+3.3 You must not claim any endorsement by any Contributor without their
+prior written permission.
+
+4. Disclaimer of Warranty and Limitation of Liability
+4.1 The Source and Products are provided "AS IS", without any express or
+implied warranties of any kind.
+4.2 Contributors accept no liability for any direct, indirect, incidental or
+consequential damages arising from the use of the Source or Products.
