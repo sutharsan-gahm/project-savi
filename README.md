@@ -1,5 +1,12 @@
 
 # Project SAVI: Ultra-Low-Cost Tactile Neuromodulation & Neuro-Safety Architecture
+<p align="center">
+  <img src="Use%20AI%20Image%20Sep%2021,%202026,%2011_25_04%20(1).jpeg" alt="Project SAVI Prototype" width="550">
+</p>
+
+<p align="center">
+  <em>An IP67-rated, low-cost neuro-haptic band built on ESP32, featuring magnetic pogo-pin charging and a translucent silicone shell for non-invasive dementia care.</em>
+</p>
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--7103--446X-green)](https://orcid.org/0009-0003-7103-446X)
 [![Part 1 DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.33716230-blue)](https://doi.org/10.6084/m9.figshare.33716230)
