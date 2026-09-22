@@ -1,7 +1,7 @@
 
 # Project SAVI: Ultra-Low-Cost Tactile Neuromodulation & Neuro-Safety Architecture
 <p align="center">
-  <img src="Use%20AI%20Image%20Sep%2021,%202026,%2011_25_04%20(1).jpeg" alt="Project SAVI Prototype" width="550">
+      <img src="concept_render.jpeg" alt="Project SAVI Conceptual Render" width="550">
 </p>
 
 <p align="center">
