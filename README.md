@@ -30,6 +30,15 @@ Project SAVI is an open-source, peer-verifiable neuro-safety wearable system des
 * **Neuromodulation Frequency:** Active noise/vibration cancellation & sensory targeting across **150–300 Hz**
 
 ---
+## 🧠 Affective Sensory Anchoring & Simulated Presence
+
+Beyond mechanical sensory gating, Project SAVI implements a two-phase conditioned neuro-behavioral paradigm:
+
+* **Positive Conditioning (Anchoring Phase):** During periods of deep calm, significant joyful moments, or intimate presence with loved ones, a specific, subtle tactile rhythm is activated on the wristband. This conditions the brain to associate that precise frequency with security, emotional warmth, and positive valence.
+* **Autonomous Recall (De-escalation Phase):** When the onboard IMU detects early kinematic signatures of acute restlessness, pacing, or sundowning agitation, the device autonomously triggers that conditioned tactile anchor—facilitating emotional de-escalation, familiar grounding, and calm before pharmacological sedation is considered.
+
+---
+
 
 ## 📜 Open-Source Licensing & Compliance
 
